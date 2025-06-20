@@ -15,11 +15,11 @@ const projects = [
     longDescription:
       "GhostFreakOS is a carefully crafted Linux distribution that combines the power of Arch Linux with a user-friendly experience. Created by Ahmed Shafiq (Ghosty/theFreakGhost) and co-owned by Asaad Zain (asaadzx), it represents the GhostFreak philosophy of cold discipline and focused development.",
     tech: ["Linux", "Arch Linux", "System Design", "OS Development"],
-    stars: 45,
-    forks: 8,
+    stars: 5,
+    forks: 0,
     status: "In Development",
     github: "https://github.com/GhostFreakOS/GhostFreakOS",
-    demo: "https://ghostfreakos.org",
+    demo: "https://ghost-freak.vercel.app",
   },
   {
     id: "zenshell",
@@ -28,12 +28,12 @@ const projects = [
       "A minimalist, fast, and developer-centric shell built exclusively for GhostFreakOS. Designed for focus, performance, and simplicity with a 'cold and disciplined' philosophy.",
     longDescription:
       "ZenShell strips away distractions and embraces the minimalist philosophy behind the GhostFreak identity. Built specifically for GhostFreakOS, it provides a clean, efficient command-line experience that helps developers maintain focus and productivity.",
-    tech: ["Shell", "C", "Linux", "Performance"],
-    stars: 23,
-    forks: 5,
+    tech: ["Shell", "C++","lua", "Linux", "Performance"],
+    stars: 2,
+    forks: 1,
     status: "Active",
     github: "https://github.com/GhostFreakOS/Zenshell",
-    demo: "https://zenshell.ghostfreakos.org",
+    demo: "https://github.com/GhostFreakOS/Zenshell",
   },
 ]
 
@@ -109,7 +109,7 @@ export default function ProjectsPage() {
               Want to contribute? Check out our GitHub repositories and join the community!
             </p>
             <Button asChild size="lg" variant="outline" className="border-gray-600 text-gray-300 hover:bg-gray-800">
-              <Link href="https://github.com/ghostfreak" target="_blank">
+              <Link href="https://github.com/GhostFreakOS" target="_blank">
                 <Github className="mr-2 h-5 w-5" />
                 View All on GitHub
               </Link>
