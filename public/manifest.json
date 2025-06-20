@@ -1,7 +1,7 @@
 {
-  "name": "GhostFreak - Futuristic Tech Solutions",
+  "name": "GhostFreak Website",
   "short_name": "GhostFreak",
-  "description": "Advanced technology solutions for the modern developer.",
+  "description": "Futuristic Tech Solutions by GhostFreak.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -19,10 +19,10 @@
       "type": "image/png"
     },
     {
-      "src": "/images/ghost-splash.gif",
+      "src": "https://ghosty.is-a.dev/assets/ghost-CmDEi4q0.gif",
       "sizes": "512x512",
       "type": "image/gif",
       "purpose": "any maskable"
     }
   ]
-} 
+}
