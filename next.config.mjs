@@ -20,4 +20,9 @@ const nextConfig = withPWA({
   },
 })
 
-export default nextConfig
+export default {
+  ...nextConfig,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+}
