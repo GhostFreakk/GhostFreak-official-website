@@ -170,7 +170,7 @@ export default function ContactPage() {
                       <Button asChild variant="ghost" className="w-full justify-start text-gray-300 hover:text-white">
                         <Link href="mailto:hello@ghostfreak.dev">
                           <Mail className="mr-3 h-5 w-5" />
-                          hello@ghostfreak.dev
+                          ghostfreakinc@gmail.com
                         </Link>
                       </Button>
                     </div>

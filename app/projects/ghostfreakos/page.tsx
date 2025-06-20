@@ -38,11 +38,11 @@ export default function GhostFreakOSPage() {
               <div className="flex justify-center gap-6 text-sm text-gray-400">
                 <div className="flex items-center gap-1">
                   <Star className="h-4 w-4" />
-                  234 stars
+                  4 stars
                 </div>
                 <div className="flex items-center gap-1">
                   <GitFork className="h-4 w-4" />
-                  45 forks
+                  0 forks
                 </div>
                 <Badge variant="secondary">Alpha</Badge>
               </div>

@@ -199,11 +199,6 @@ export default function ZenShellPage() {
                         </Link>
                       </Button>
                       <Button asChild variant="ghost" className="w-full justify-start text-gray-300 hover:text-white">
-                        <Link href="https://github.com/GhostFreakOS/Zenshell/discussions" target="_blank">
-                          Discussions
-                        </Link>
-                      </Button>
-                      <Button asChild variant="ghost" className="w-full justify-start text-gray-300 hover:text-white">
                         <Link href="/projects/ghostfreakos">GhostFreakOS</Link>
                       </Button>
                     </div>
